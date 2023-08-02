@@ -26,4 +26,4 @@ Quer algum apoio no desafio? [Junte-se à nossa comunidade Slack](https://www.fr
 ## Deploy
 Para realizar o deploy da minha aplicação, utilizei uma plataforma gratuito de hospedagem de sites estáticos chamada Netlify
 
-Clique [aqui](frontend-mentor-3colunas.netlify.app) para visualizar minha aplicação rocket 🚀
+Clique [aqui](https://frontend-mentor-3colunas.netlify.app/) para visualizar minha aplicação rocket 🚀
