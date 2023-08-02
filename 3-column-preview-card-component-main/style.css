@@ -1,0 +1,249 @@
+/* estilo aplicado de 0 a 900px */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    }
+
+    h1{
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+    margin: 30px 0;
+    font-size: 2em;
+    color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    p{
+    width: 220px;
+    margin-bottom: 80px;
+    color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    p, a {
+    font-family: 'Lexend Deca';
+    }
+
+    .container-cols{
+    margin: auto;
+    width: 80%;
+    min-width: 375px;
+    overflow: hidden;
+    }
+
+    .col{
+    width: 20%;
+    min-width: 200px;
+    padding: 50px;
+    margin: 0 auto;
+    }
+
+    #col-orange{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+    /* border: 1px solid red; */
+    }
+
+    #col-orange a{
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 120px;
+    padding: 15px;
+    border-radius: 50px;
+    }
+
+    #col-orange a:hover{
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    padding: 14px;
+    border: 1px solid white;
+    }
+
+    #col-cyan{
+    background-color: hsl(184, 100%, 22%);
+    }
+
+    #col-cyan a{
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 120px;
+    padding: 15px;
+    border-radius: 50px;
+    }
+
+    #col-cyan a:hover{
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    padding: 14px;
+    border: 1px solid white;
+    }
+
+    #col-dark-cyan{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px ;
+    }
+
+    #col-dark-cyan a{
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 120px;
+    padding: 15px;
+    border-radius: 50px;
+    }
+
+    #col-dark-cyan a:hover{
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    padding: 14px;
+    border: 1px solid white;
+    }
+
+    .attribution { 
+    font-size: 11px;
+    text-align: center; 
+    font-family: 'Lexend Deca';
+    margin-top: 2em;
+    }
+
+    .attribution a {
+    color: hsl(228, 45%, 44%);
+    }
+
+/* estilo aplicado somente a partir de 900px em diante */
+@media (min-width: 900px) {
+    
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    }
+
+    h1{
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+    margin: 30px 0;
+    font-size: 2em;
+    color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    p{
+    width: 220px;
+    margin-bottom: 80px;
+    color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    p, a {
+    font-family: 'Lexend Deca';
+    }
+
+    .container-cols{
+    margin: auto;
+    width: 900px;
+    min-width: 375px;
+    overflow: hidden;
+    }
+
+    .col{
+    width: 20%;
+    min-width: 200px;
+    padding: 50px;
+    float: left;
+    /* position: relative; */
+    margin: 0 auto;
+    }
+
+    /* ==========DESIGN CONTAINER ORANGE========== */
+    #col-orange{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+    /* border: 1px solid red; */
+    }
+
+    #col-orange a{
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 120px;
+    padding: 15px;
+    border-radius: 50px;
+    }
+
+    #col-orange a:hover{
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    padding: 14px;
+    border: 1px solid white;
+    }
+
+    /* ==========DESIGN CONTAINER CYAN========== */
+    #col-cyan{
+    background-color: hsl(184, 100%, 22%);
+    }
+
+    #col-cyan a{
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 120px;
+    padding: 15px;
+    border-radius: 50px;
+    }
+
+    #col-cyan a:hover{
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    padding: 14px;
+    border: 1px solid white;
+    }
+
+    /* ==========DESIGN CONTAINER DARK CYAN========== */
+    #col-dark-cyan{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+    }
+
+    #col-dark-cyan a{
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 120px;
+    padding: 15px;
+    border-radius: 50px;
+    }
+
+    #col-dark-cyan a:hover{
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    padding: 14px;
+    border: 1px solid white;
+    }
+
+    /* ==========DESIGN LINK FOOTER========== */
+    .attribution { 
+    font-size: 11px;
+    text-align: center; 
+    font-family: 'Lexend Deca';
+    margin-top: 2em;
+    }
+
+    .attribution a {
+    color: hsl(228, 45%, 44%);
+    }
+}
