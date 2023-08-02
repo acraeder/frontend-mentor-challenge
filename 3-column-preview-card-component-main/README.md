@@ -22,3 +22,8 @@ Seus usuários devem ser capazes de:
 - Veja os estados de foco para elementos interativos
 
 Quer algum apoio no desafio? [Junte-se à nossa comunidade Slack](https://www.frontendmentor.io/slack) e faça perguntas no canal **#help**.
+
+## Deploy
+Para realizar o deploy da minha aplicação, utilizei uma plataforma gratuito de hospedagem de sites estáticos chamada Netlify
+
+Clique [aqui](frontend-mentor-3colunas.netlify.app) para visualizar minha aplicação rocket 🚀
